@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chokhaoze.mycarparkapp2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My Carpark App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label=" My Carpark App ">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapPage"
+            android:parentActivityName=".MainActivity"
+            android:label=" Map Page ">
+        </activity>
+        <activity android:name=".SetCarParkConfiguration"
+            android:parentActivityName=".MapPage"
+            android:label=" Set Car Park Configuration ">
+        </activity>
+        <activity android:name=".EditCarParkConfiguration"
+            android:parentActivityName=".SetCarParkConfiguration"
+            android:label=" Edit Car Park 1 Configuration ">
+        </activity>
+        <activity android:name=".EditCarPark2Configuration"
+            android:parentActivityName=".SetCarParkConfiguration"
+            android:label=" Edit Car Park 2 Configuration ">
+        </activity>
+        <activity android:name=".EditCarPark3Configuration"
+            android:parentActivityName=".SetCarParkConfiguration"
+            android:label=" Edit Car Park 3 Configuration ">
+        </activity>
+        <activity android:name=".EditCarPark4Configuration"
+            android:parentActivityName=".SetCarParkConfiguration"
+            android:label=" Edit Car Park 4 Configuration ">
+        </activity>
+        <activity android:name=".EditCarPark5Configuration"
+            android:parentActivityName=".SetCarParkConfiguration"
+            android:label=" Edit Car Park 5 Configuration ">
+        </activity>
+    </application>
+
+</manifest>

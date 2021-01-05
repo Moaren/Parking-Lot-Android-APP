@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".EditCarPark2Configuration">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+    </include>
+
+    <LinearLayout
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:dividerPadding="9px">
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/editTextValue"
+            android:hint="Price/hr: "
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:dividerPadding="9px">
+
+
+        <TextView
+            android:id="@+id/textViewCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:dividerPadding="9px">
+
+
+        <Button
+            android:id="@+id/buttonSlot1"
+            android:layout_marginRight="100dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 1" />
+
+
+        <Button
+            android:id="@+id/buttonSlot2"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSlot3"
+            android:layout_marginRight="100dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 3" />
+
+        <Button
+            android:id="@+id/buttonSlot4"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSlot5"
+            android:layout_marginRight="100dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 5" />
+
+        <Button
+            android:id="@+id/buttonSlot6"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSlot7"
+            android:layout_marginRight="100dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 7" />
+
+        <Button
+            android:id="@+id/buttonSlot8"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSlot9"
+            android:layout_marginRight="100dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 9" />
+
+        <Button
+            android:id="@+id/buttonSlot10"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_unselector"
+            android:text="SLOT 10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSaveConfig"
+            android:layout_marginTop="45dp"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:background="#00c3ff"
+            android:text="Save" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonResetConfig"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:background="#00c3ff"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
